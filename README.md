@@ -1,7 +1,7 @@
 # oql2json - ANTLR-generated Converter from Netcool ITNM OQL Inserts to JSON
 
 [IBM Tivoli Network Manager (aka ITNM)](http://www-03.ibm.com/software/products/en/ibmtivolinetworkmanageripedition) 
-is a network modelling software suite. It uses an internal **Object Query Language (OQL)** database with an SQL-like syntax that 
+is a network modeling software suite. It uses an internal **Object Query Language (OQL)** database with an SQL-like syntax that 
 natively supports nested arrays and hashes as datatypes.
 
 oql2json is mostly an [ANTLR grammar](https://github.com/rc9000/oql2json/blob/master/oql2json/grammar/ItnmDump.g4) 
