@@ -85,3 +85,8 @@ that understands OQL insert statements, and then some lines of code to walk the 
       }
     ]
 
+# How to generate the parser
+
+All the code in the *parser* package can be regnerated from the grammar:
+
+     java -jar antlr-4.5-complete.jar -o (dir) -package (package-name) grammar/itnmdump.g4
