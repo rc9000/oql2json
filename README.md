@@ -14,35 +14,28 @@ that understands OQL insert statements, and then some lines of code to walk the 
      (shell) $ mvn package
     
      (shell) $ cat examples/ex1.txt
+     
+    insert into master.entityByName
+    ( EntityName, BaseName, EntityType )
+    values
+    ( "the entity name 1", "the basename", 1 );
     
     insert into master.entityByName
-    (
-    EntityName,
-    BaseName,
-    EntityType
+    ( 
+    	EntityName, 
+    	BaseName, 
+    	AnArray, 
+    	SomeHash 
     )
     values
     (
-    "the entity name 1",
-    "the basename",
-    1
-    );
-    
-    insert into master.entityByName
-    (
-    EntityName,
-    BaseName,
-    AnArray,
-    SomeHash
-    )
-    values
-    (
-    "the entity name 2",
-    "the basename",
-    ['a', 'b'],
-    {  key1=1,
-       key2="foo",
-       key3=['aa', 'bb']}
+    	"the entity name 2",
+    	"the basename",
+    	['a', 'b'],
+    	{  key1=1, 
+    	   key2="foo",
+    	   key3=['aa', 'bb']
+    	}
     );
     
      (shell) $ java -jar target/oql2json-SNAPSHOT-jar-with-dependencies.jar examples/ex1.txt
