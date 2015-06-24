@@ -1,0 +1,45 @@
+insert into master.entityByName
+(
+EntityName,
+BaseName,
+Address,
+EntityType,
+IsActive,
+Status,
+ExtraInfo
+)
+values
+(
+"core810-r-bs-14",
+"core810-r-bs-14",
+['',
+'',
+'192.168.92.14'],
+1,
+1,
+1,
+{ m_IpForwarding=1, m_IPv6Forwarding=1, m_SysName='core810-r-bs-14', m_DNSName='core810-r-bs-14', m_AssocAddress=[{ m_IfIndex=137, m_IpAddress='192.168.11.50', m_IfOperStatus=1, m_Protocol=1 },{ m_IfIndex=138, m_IpAddress='192.168.11.54', m_IfOperStatus=1, m_Protocol=1 }], m_SysLocation='Lab', m_SysContact='noc@example.org', m_SysUpTime=34935975, m_SysServices=78 }
+);
+
+insert into master.entityByName
+(
+EntityName,
+BaseName,
+Address,
+EntityType,
+IsActive,
+Status,
+ExtraInfo
+)
+values
+(
+"core810-r-bs-15",
+"core810-r-bs-15",
+['',
+'',
+'192.168.92.15'],
+1,
+1,
+1,
+{ m_IpForwarding=1, m_IPv6Forwarding=1, m_SysName='core810-r-bs-15', m_DNSName='core810-r-bs-14', m_AssocAddress=[{ m_IfIndex=137, m_IpAddress='192.168.11.50', m_IfOperStatus=1, m_Protocol=1 },{ m_IfIndex=138, m_IpAddress='192.168.11.54', m_IfOperStatus=1, m_Protocol=1 }], m_SysLocation='Lab', m_SysContact='noc@example.org', m_SysUpTime=34935975, m_SysServices=78 }
+);

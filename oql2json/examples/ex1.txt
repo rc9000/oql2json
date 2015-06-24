@@ -1,0 +1,30 @@
+
+insert into master.entityByName
+(
+EntityName,
+BaseName,
+EntityType
+)
+values
+(
+"the entity name 1",
+"the basename",
+1
+);
+
+insert into master.entityByName
+(
+EntityName,
+BaseName,
+AnArray,
+SomeHash
+)
+values
+(
+"the entity name 2",
+"the basename",
+['a', 'b'],
+{  key1=1, 
+   key2="foo",
+   key3=['aa', 'bb']}
+);
