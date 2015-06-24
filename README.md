@@ -95,4 +95,4 @@ All the code in the *parser* package can be regnerated from the grammar:
 
  * JDK 1.8
  * Maven 3
- * [antlr-4.5-complete](http://www.antlr.org/download/antlr-4.5-complete.jar) to re-generate the parser
+ * optinally [antlr-4.5-complete.jar](http://www.antlr.org/download/antlr-4.5-complete.jar) to re-generate the parser
