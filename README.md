@@ -4,7 +4,7 @@
 is a network modelling software suite. It uses an internal **Object Query Language (OQL)** database with an SQL-like syntax that 
 natively supports nested arrays and hashes as datatypes.
 
-oql2json is mostly a [ANTLR grammar](https://github.com/rc9000/oql2json/blob/master/oql2json/grammar/ItnmDump.g4) 
+oql2json is mostly an [ANTLR grammar](https://github.com/rc9000/oql2json/blob/master/oql2json/grammar/ItnmDump.g4) 
 that understands OQL insert statements, and then some lines of code to walk the parse tree and convert it to JSON.
 
 # How to use 
